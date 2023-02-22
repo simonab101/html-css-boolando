@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*imposto header*/
+header {
+  z-index: 1;
+  background-color: #ff6900;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  box-shadow: 5px 5px 15px #0000005b;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 0;
+  margin: auto 6rem;
+}
+
+.categories {
+  font-weight: bold;
+}
+
+.categories a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.categories a:first-child {
+  margin-left: 0;
+}
+
+.categories a, .icons i {
+  margin-left: 0.5rem;
+}
+
+.logo{
+  width: 10%;
+}
+
+.logo img {
+  width: 85%;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
