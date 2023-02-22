@@ -58,3 +58,117 @@ body {
   display: table;
   clear: both;
 }
+
+/* DEBUG */
+.debug {
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 1px solid red;
+}
+
+.h100vh {
+  height: 100vh;
+}
+
+.h500{
+  height: 500px;
+}
+
+.h300{
+  height: 300px;
+}
+
+.h200 {
+  height: 200px;
+}
+/* /DEBUG */
+
+.card {
+  width: calc(100% / 3);
+  float: left;
+  padding: 16px;
+}
+
+.card-img{
+  position: relative;
+  width: 100%;
+}
+
+.card-img img {
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+}
+
+.card-promo {
+  position: absolute;
+  bottom: 30px;
+  left: 5px;
+}
+
+.discount, .sustainability {
+  font-weight: bold;
+  padding: 5px 8px; 
+  color: white;
+}
+
+.discount {
+  background-color: red;
+}
+
+.sustainability {
+  background-color: green;
+}
+
+.brand {
+  font-size: .9rem;
+  color: #b6b2b2;
+  text-transform: capitalize;
+}
+
+.product-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+[class$="price"] {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.new-price {
+  color: red;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.second-img {
+  display: none;
+}
+
+.card-img:hover .first-img{
+  display: none;
+}
+
+.card-img:hover .second-img{
+  display: inline-block;
+}
+
+.heart {
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.5rem;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+
+.heart:hover {
+  color: red;
+  cursor: pointer;
+}
+
