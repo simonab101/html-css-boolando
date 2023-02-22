@@ -172,3 +172,45 @@ body {
   cursor: pointer;
 }
 
+/* Inizio footer */
+footer {
+  margin-bottom: 5px;
+  background-color: #1a1a1a;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-left {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 6rem;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link p {
+  margin-right: 1rem;
+}
+
+.foot-right {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 6rem;
+}
+
+#foot-icon {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+#foot-icon i {
+  padding-right: 3px;
+}
+
+#foot-icon, .link {
+  padding-top: 0.5rem;
+}
